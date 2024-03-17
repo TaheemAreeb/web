@@ -1,0 +1,41 @@
+.navbar{
+	background: lawngreen;
+	display: flex;
+	justify-content: flex-end;
+}
+*{
+	margin: 0;
+	box-sizing: border-box;
+}
+.navbar a{
+	text-decoration: none;
+	color: black;
+	font-size: 15px;
+	font-weight: 700;
+	padding: 10px;
+}
+.navbar a:hover{
+	color: white;
+}
+@media only screen and (max-width:600px){
+	.navbar{
+		background: black;
+		border: 4px solid gold;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.navbar a{
+		text-decoration: none;
+		color: white;
+		font-size: 18px;
+		font-weight: 700;
+		padding: 10px;
+		text-align: center;
+		border: 4px solid gold;
+	}
+	navbar a:hover{
+		background: darkblue;
+	}
+	img{
+		width: 400px;
+	}
